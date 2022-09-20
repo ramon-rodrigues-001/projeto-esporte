@@ -37,13 +37,15 @@ h1, h2, h3 {
 
 
             /* ================ INICIO DO ESTILO DO MAIN ============== */
+#main {
+    padding: 10px;
+}
 #apresentacao {
     margin: 20px;
     text-align: center;
 }
 #container-conteudo {
     display: flex;
-    padding: 5px;
 }
 
 #corpo-principal {
@@ -53,24 +55,29 @@ h1, h2, h3 {
     gap: 15px;
 
     font-size: 1.15em;
-    width: 71vw;
+    width: 70vw;
 }
 .itens-principais {
     flex: 0 0 260px;
     border-radius: 10px;
     border: 2px solid transparent;
     height: 370px;
-    width: 250px;
+    width: 260px;
 }
 .itens-principais:hover {
     border: 2px solid black;
     transition: .4s;
+}
+.itens-principais a { 
+    color: black;
+    text-decoration: none;
 }
 .img-principais {
     border-radius: 10px;
     width: 100%;
     height: 170px;
 }
+
 
 
 #aside {
@@ -90,17 +97,21 @@ h1, h2, h3 {
     text-align: center;
     margin: 35px 0px 0px 0px;
     border-radius: 10px;
-    border: solid 1.7px transparent;
-    width: 200px;
+    border: solid 2px transparent;
+    width: 240px;
 }
 .itens-aside:hover {
-    border: 1.7px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     transition: .4s;
+}
+.itens-aside a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 .img-aside {
     border-radius: 10px;
     width: 100%;
-    height: 130px;
+    height: 140px;
 }
             /* ================ FIM DO ESTILO DO MAIN ============== */
 
@@ -114,7 +125,7 @@ h1, h2, h3 {
     background-color: rgb(39, 37, 37);
     margin-top: 15px;
     padding: 0px 30px;
-    min-height: 70px;
+    min-height: 80px;
 }
 #footer a {
     font-size: 1.4em;

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 650px) {
+    /* HEADER */
+    #header {
+        display: block;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    #nav-header {
+        font: normal 1em Arial;
+        padding: 10px 0px;
+    }
+    .a-header {
+        font-size: 1em;
+        margin: 0px 5px;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+
+    /* MAIN */
+    #container-conteudo {
+        display: block;
+    }
+    #corpo-principal {
+        width: 94vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .itens-aside {
+        width: 80%;
+        height: auto;
+    }
+    .img-aside {
+        width: 100%;
+        height: auto;
+    }
+    .img-principais {
+        
+    }
+
+    
+    /* FOOTER */
+    #footer {
+        display: block;
+        text-align: center;
+        padding: 10px 0px;
+    }
+}

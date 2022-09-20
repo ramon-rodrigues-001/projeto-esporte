@@ -5,17 +5,21 @@
     margin: 0;
     padding: 0;
 }
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+            /* =============== INICIO DO ESTILO DO HEADER ============== */
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     background-color: rgb(39, 37, 37);
-    height: 80px;
+    min-height: 80px;
     padding: 0px 5%;
 }
-#logo-onebit {
+.logo-onebit {
     height: 40px;
 }
 .a-header {
@@ -29,28 +33,92 @@
     border-bottom: 2.5px solid black;
     transition: .3s;
 }
+            /* =============== FIM DO ESTILO DO HEADER ============== */
 
 
-
-#main {
-    padding: 10px 40px;
-}
+            /* ================ INICIO DO ESTILO DO MAIN ============== */
 #apresentacao {
     margin: 20px;
     text-align: center;
 }
+#container-conteudo {
+    display: flex;
+    padding: 5px;
+}
 
 #corpo-principal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(350px, auto);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
 
-    font-size: 1.1em;
-    width: 70vw;
+    font-size: 1.15em;
+    width: 71vw;
+}
+.itens-principais {
+    flex: 0 0 260px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    height: 370px;
+    width: 250px;
+}
+.itens-principais:hover {
+    border: 2px solid black;
+    transition: .4s;
 }
 .img-principais {
     border-radius: 10px;
     width: 100%;
     height: 170px;
+}
+
+
+#aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(39, 37, 37);
+    color: white;
+    padding: 20px;
+    margin: 0px auto;
+}
+#aside h2 {
+    font-size: 1.3em;
+}
+.itens-aside {
+    text-align: center;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+    border: solid 1.7px transparent;
+    width: 200px;
+}
+.itens-aside:hover {
+    border: 1.7px solid rgb(255, 255, 255);
+    transition: .4s;
+}
+.img-aside {
+    border-radius: 10px;
+    width: 100%;
+    height: 130px;
+}
+            /* ================ FIM DO ESTILO DO MAIN ============== */
+
+            
+            /* =============== INICIO DO ESTILO DO FOOTER ============== */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(39, 37, 37);
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-height: 70px;
+}
+#footer a {
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }

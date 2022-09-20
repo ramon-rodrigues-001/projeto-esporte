@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 630px) {
     /* HEADER */
     #header {
         display: block;
@@ -21,7 +21,8 @@
 
     /* MAIN */
     #container-conteudo {
-        display: block;
+        flex-direction: column;
+        gap: 10px;
     }
     #corpo-principal {
         width: 94vw;
@@ -37,10 +38,6 @@
         width: 100%;
         height: auto;
     }
-    .img-principais {
-        
-    }
-
     
     /* FOOTER */
     #footer {

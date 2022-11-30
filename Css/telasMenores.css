@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 630px) {
     /* HEADER */
-    #header {
+    #header { 
         display: block;
         text-align: center;
         padding: 10px 0px;

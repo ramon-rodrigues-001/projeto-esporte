@@ -1,6 +1,4 @@
 # projeto-esporte
-Projeto desenvolvido durante o curso da ONeBitCode. Este projeto tem como tema esportes, objetivo do projeto utilização do Flexbox e Grid.
-
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=100&section=header"/>
 
 <h3>Oi!, Tudo Bem? <br>
